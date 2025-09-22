@@ -18,13 +18,26 @@ body {
 }
 
 main,
-aside {
-  max-width: 800px;
+aside .user {
+  max-width: 250px;
   margin: 24px auto;
-  padding: 16px 32px;
+  padding: 12px;
   border: 2px dotted lightslategray;
   border-radius: 4px;
   position: relative;
+}
+
+aside .user .name {
+  font-size: 16px;
+}
+
+aside .user .bio {
+  font-size: 12px;
+  margin: 6px 0;
+}
+
+aside .user .location {
+  font-size: 10px;
 }
 
 ul {
