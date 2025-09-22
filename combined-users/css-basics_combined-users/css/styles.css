@@ -40,8 +40,14 @@ aside .user .location {
   font-size: 10px;
 }
 
-ul {
+ul .user .bio {
+  display: none;
   width: max-content;
+}
+
+ul .user .location {
+  text-align: left;
+  color: darkslategray;
 }
 
 li {
