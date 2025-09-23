@@ -20,11 +20,18 @@ h2 {
 }
 
 .profile__image {
+  display: block;
+  margin-inline: auto;
   object-fit: cover;
   border-radius: 999px;
   aspect-ratio: 1 / 1;
   border: solid #3f0097 1px;
   max-width: 50%;
+}
+
+.profile__image h2 {
+  text-align: center;
+  width: 100%;
 }
 
 .tech-stack__list {
