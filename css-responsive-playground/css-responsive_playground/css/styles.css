@@ -116,3 +116,17 @@ h1 {
 .box--five img {
   width: 100%;
 }
+
+@media screen and (min-width: 599px) {
+  .box--five img {
+    <img src="img/cat_medium.jpg" alt="A cute cat">
+  }
+  
+}
+
+@media screen and (min-width: 1199px) {
+  .box--five img {
+    <img src="img/cat_large.jpg" alt="A cute cat">
+  }
+}
+
